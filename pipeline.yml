@@ -4,34 +4,7 @@ resources:
     source:
       uri: git@github.com:benjoyce/javarestgreeting.git
       branch: master
-      private_key: |
------BEGIN RSA PRIVATE KEY-----
-MIIEowIBAAKCAQEAp/XFWHun2V9BQk0Zl2A/89Ao6/QvPebi+pYbai6mt1nn2I9s
-ColSymfTJ7Yk6y+Em/nLdlGYHKP358EYsbZFRDarvjws/5wFWpRe86K9D+CxrJd1
-BZps/ClQHQNdEjj4MLG75X10KHqgulZkIvZJ6RSG2sbFpsZeXx9s5I4OlddZAP2F
-Bjdhtc0Ycov8isMaYzHCzXigGtUp/MI6cRpmQDS1BZ6CaFX4WhZcRGiBk62RRFhV
-Gta4PiDl37B6F7RDx0dJVddgZHkEXUZ9Mpvv+n9RaIzJlG7zcsHZUahgQT1+jK3M
-DBVkycG6LaSq6q6FiUk8Ru2FhDP3pzLS77uavQIDAQABAoIBAGqTP8rag/IhSDZ6
-178++rWJoz29bvCXffVFpFWnDnCPYtb+gq7Y3ijC4rBzGlAFkd6rDVihg6TAwoBS
-/YleP+t9yVJnuqHi7V7BgNKVs+PMTtFWNZH9oCQNTuFqDfePIKU9Uh3XkgpRbYVv
-ZhDtOI7mUH+n2yjs/FrdhOot3cFjoW8U2mRAS078j0j0zGhhBYkEqSTi99PHU9p1
-RKTRoJ9ASgrAnnXtf/7+N58RNZyz1cddXfkY9dEnFh4taomHN34ALknWiWrl+sB6
-YSzmKx2q/APQQ9mL/w86vgW1JboJqhH/bnLZ0o9/7LOuned+EuMRb1HfSEVyqLXO
-5ux7Fh0CgYEA2yLSwuDYCLRuruCXLnTAmoQW5+PWC/7wXN/hsgwuNcVDTn0ntTD2
-k6iA63hzjtdaRk0Znw/eA0jgBZvHWkOxgGb+sp/qKllg+7MBWQ1hLDIGTpAQ5TUT
-+okY0zu32lUBy0pYoSVSUz2eX5y5LeIIY8YHvBy3bDlMph6FdUNX8rcCgYEAxDcI
-wv0dHHJHK+uNF281YUHUGjsGExwzWtn0KF8Sm06k+8Sl2eNl4d47fZTDOLGXs8WH
-Ff0KbkLVL7IDxpPvDrgHKQclCGGQ0WlfPSfjCNrr+9deNBUW61/IuEUvsaqpnCa8
-9MNjN1AZ5ZW1E9aYF/3+vFg+IBvomqivWyDq2isCgYBMmc6s2qYJ3PC35sBSN/O/
-z56mLsl65gIlpQkjEQjyOON/Q1anCteW5Bc0uKVEcFkZLAhhxs0nvsi4jSzRi8o3
-hUlRLX9QkG/LbFZzR68JIO99dPTC+pviPxxTcpOhGYgIBRQYOJCfknGTIJjGxjWC
-kw3PHwarKRh3FUI3rHPI3wKBgC5Sj8740paUpBjKU1Tk/EUptVk79gMs9TLNocam
-K05fErQdiMoX1UWtoX3UUQJhat8WEv4t7vh47ruD20BWTGm9KHOXLDb+UaIerk1R
-zVeZ13xtK+A/2llXE5vtOYVINSKYQqPGPPYiAvsgjM9SKjX/0NPGQWRzMkbQ7BUn
-gEphAoGBAJFGL/0bvJ8bbETExDcIxpfASEt9VfmhCR+WhqSruu+nE4Mi8dlMPwgh
-AOiaUQGp1GSzspaexYZt+dzzy7xMGcTSML1KhJGSk1JLxGVApfkxVD7/beQHeq92
-0QVuT5ebad+nks9/wsoQ9Y0WE+7+acEwnhBthEntLLs4mmnCb1Z7
------END RSA PRIVATE KEY-----
+      private_key: ((private-repo-key))
   - name: time
     type: time
     source:
