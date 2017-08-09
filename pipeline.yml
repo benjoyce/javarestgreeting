@@ -1,0 +1,22 @@
+resources:
+  - name: git-repo
+    type: git
+    source:
+      uri: https://github.com/benjoyce/javarestgreeting.git
+      branch: master
+  - name: time
+    type: time
+    source:
+      interval: 60s
+
+
+jobs:
+  - name: maven-build
+    plan:
+    - aggregate:
+      - get: git-repo
+        trigger: true
+      - get: time
+    - task: maven-build
+      privileged: true
+      file: git-repo/pipeline/maven-build.yml
