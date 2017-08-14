@@ -19,4 +19,4 @@ jobs:
       - get: time
     - task: maven-build
       privileged: true
-      file: pipeline/maven-build.yml
+      file: git-repo/pipeline/maven-build.yml
