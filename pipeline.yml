@@ -2,10 +2,8 @@ resources:
   - name: git-repo
     type: git
     source:
-      #uri: git@github.com:benjoyce/javarestgreeting.git
       uri: https://github.com/benjoyce/javarestgreeting.git
       branch: master
-      # private_key: ((private-repo-key))
   - name: time
     type: time
     source:
@@ -21,4 +19,4 @@ jobs:
       - get: time
     - task: maven-build
       privileged: true
-      file: git-repo/pipeline/maven-build.yml
+      file: pipeline/maven-build.yml
