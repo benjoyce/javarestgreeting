@@ -11,7 +11,7 @@ timestamps {
 
 			sh "ls -la ${pwd()}"
 
-			sh "mvn -f pom.xml clean install -DskipTests -Dbuild.number=${buildNumber}"
+			sh "mvn -f pom.xml clean install -DskipTests -Dbuild.number=${env.BUILD_NUMBER}"
 		}
 
 	}
