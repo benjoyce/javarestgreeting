@@ -26,7 +26,7 @@ timestamps {
 			stash includes: "Dockerfile", name: 'docker'
 
 			dir("target") {
-				stash includes: "*${env.BUILD_NUMBER}", name: 'jars'
+				stash includes: "*.jar", name: 'jars'
 			}
 		}
 
