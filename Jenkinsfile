@@ -35,7 +35,7 @@ timestamps {
 			unstash 'docker'
 			unstash 'jars'
 			sh "ls -la ${pwd()}"
-			sh "docker build -t javarestgreeting:latest ."
+			sh "docker build -t 192.168.0.38:8083/javarestgreeting:latest ."
 
 			//sh "docker tag 192.168.0.38:8083/javarestgreeting:GET VERSION FROM MAVEN PROPERTIES"
 			//sh "docker tag 192.168.0.38:8083/javarestgreeting:latest"
