@@ -1,0 +1,16 @@
+{
+    "id": "javarestgreeting",
+    "cmd": "",
+    "cpus": 0.5,
+    "mem": 32.0,
+    "networks": [ { "mode": "container/bridge" } ],
+    "container": {
+      "type": "DOCKER",
+      "docker": {
+        "image": "192.168.0.38:8083/javarestgreeting:latest"
+      },
+      "portMappings": [
+        { "containerPort": 8080, "hostPort": 45159 }
+      ]
+    }
+  }
